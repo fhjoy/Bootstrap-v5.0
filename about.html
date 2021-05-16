@@ -14,39 +14,267 @@
     <title>Bootstrap-v5.0</title>
   </head>
   <body>
+
       <!-- NavBar Started-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Faisal Hossain</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profile
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">CV</a></li>
-                  <li><a class="dropdown-item" href="#">Education</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Skills</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contract Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/l1.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Travel World 
+        </a>
+      </div>
+    </nav>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"> About Me </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Travel Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#"> Bangladesh </a></li>
+            <li><a class="dropdown-item" href="#"> Germany </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"> World Tour </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"> Contact </a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"> Search  </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- About Started-->
+      
+<section class="main_heading my-4">
+  <div class="text-center text-uppercase">
+      <h1 class="display-2"> About 
+       <small class="text-muted">Me</small> 
+       </h1>
+      <hr class="w-25 mx-auto">
+  </div>
+
+<div class="container">
+  <div class= "row my-5">
+  <div class="col-xxl-6 col-lg-6 col-md-6 col-12">
+      <figure>
+          <img src="Images/a1.jpg" alt="Faisal Hossain" class="img-fluid about_img">
+      </figure>
+
+   
+  </div>
+  <div class="col-xxl-6 col-lg-6 col-md-6 col-10 d-flex 
+  justify-content-center align-items-start flex-column">
+      <h2> Who Am I </h2>
+      <p>
+        I Md Faisal Hossain, student, recently I have completed my third semester as an international postgraduate student in Communication and Media Engineering at Hochschule Offenburg and I did 
+        my bachelor's in Computer Science and Engineering. 
+        Punctuality, honesty, and independence are the three most important factors for me. By working in a multinational company, I have enhanced my communication skills, 
+        and it also helped me to develop organizational skills like multitasking and being an active team player. In addition to my knowledge, I always actively seek out new technologies 
+        and stay up-to-date on industry trends and advancements. I know this will allow me to stay ahead of the curve and deliver exceptional work to all of my employers. 
+        I also want to say that I think am a fast learner, 
+        can also participate in a new project in an independent/team, efficient, and solution-orientated manner.
+      </p>
+      <a href="https://fhjoy.github.io/Resume/" target="_faisal">
+      <button type="button" class="btn btn-outline-success"> Check More </button>
+      </a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div id="navbar-example" style="position: relative;"> 
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+<a class="navbar-brand" style="color: #198754;" href="#">My Journey</a>
+<ul class="nav nav-pills">
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyHeading1"> Childhood </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyHeading2">Education</a>
+</li>
+<li class="nav-item dropdown btn-outline-success">
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> Job Experience </a>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#scrollspyHeading3">Experience 1 </a></li>
+  <li><a class="dropdown-item" href="#scrollspyHeading4">Experience 2</a></li>
+  <li><hr class="dropdown-divider"></li>
+  <li><a class="dropdown-item" href="#scrollspyHeading5">Experience 3</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" 
+style= "height: 300px; overflow-y: scroll; tabindex= 0;">
+<h4 id="scrollspyHeading1">Childhood</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+<h4 id="scrollspyHeading2">Education</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+<h4 id="scrollspyHeading3">Experience 1</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+<h4 id="scrollspyHeading4">Experience 2</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+<h4 id="scrollspyHeading5">Experience 3</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-light text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+<section class="">
+<form action="">
+  <!--Grid row-->
+  <div class="row d-flex justify-content-center">
+    <!--Grid column-->
+    <div class="col-auto">
+      <p class="pt-2">
+        <strong>Sign Up For Notifications In Email</strong>
+      </p>
+    </div>
+    <!--Grid column-->
+    <div class="col-md-5 col-12">
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form5Example2" class="form-control" placeholder="@" />
+       
+      </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-auto">
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-outline-success mb-4">
+        Subscribe
+      </button>
+    </div>
+    <!--Grid column-->
+  </div>
+  <!--Grid row-->
+</form>
+</section>
+<!-- Section: Form -->
+</div>
+<!-- Grid container -->
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright
+    <a class="text-white text-decoration-none" target="_joy" href="https://fhjoy.github.io/Resume/">Faisal Hossain</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+-->
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script>
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+target: '#navbar-example'
+})
+var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+return new bootstrap.Toast(toastEl)
+}) 
+toastList [0].show()
+</script>
+</body>
+</html>

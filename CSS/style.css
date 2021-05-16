@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
 }
-#navbar-example2 .nav-link{
+#navbar-example2 .nav-link {
     color: #198754;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -27,5 +27,12 @@
     color: #fff;
     background-color: #198754;
     border-color: #198754;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
     text-decoration: none;
+    background-color: #198754;
+}
+.dropdown-item{
+    color: #198754;
 }
