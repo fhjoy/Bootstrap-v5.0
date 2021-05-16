@@ -14,42 +14,52 @@
     <title>Bootstrap-v5.0</title>
   </head>
   <body>
+
       <!-- NavBar Started-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Faisal Hossain</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profile
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">CV</a></li>
-                  <li><a class="dropdown-item" href="#">Education</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Skills</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contract Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase fixed-top">
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/l1.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Travel World 
+        </a>
+      </div>
+    </nav>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"> About Me </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Travel Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#"> Bangladesh </a></li>
+            <li><a class="dropdown-item" href="#"> Germany </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"> World Tour </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"> Contact </a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"> Search  </button>
+      </form>
+    </div>
+  </div>
+</nav>
 
       <!-- Carousel Started-->
 
@@ -61,24 +71,27 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Images/m1.jpg" class="d-block w-100" alt="Images/m1.jpg">
-            <div class="carousel-caption d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="Images/m1.jpg" class="d-block w-100 h-30" alt="Images/m1.jpg">
+            <div class="carousel-caption d-md-block text-dark">
+              <h5 class="text-uppercase">Beautiful Ocean</h5>
+              <hr class="w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure eligendi vitae excepturi quae modi qui aut assumenda asperiores, quibusdam soluta possimus ratione sequi voluptatum ipsa? Nesciunt, deleniti inventore! Similique!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="Images/m2.jpg" class="d-block w-100" alt="Images/m2.jpg">
+            <img src="Images/m2.jpg" class="d-block w-100 h-30" alt="Images/m2.jpg">
             <div class="carousel-caption d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5 class="text-uppercase" > Hills & Sea </h5>
+              <hr class="w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veritatis corrupti qui ea distinctio rerum amet aspernatur. Eos molestias perferendis esse nihil consequatur debitis odit voluptatum? Minus atque minima eligendi.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="Images/m3.jpg" class="d-block w-100" alt="Images/m3.jpg">
-            <div class="carousel-caption d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+            <img src="Images/m3.jpg" class="d-block w-100 h-30" alt="Images/m3.jpg">
+            <div class="carousel-caption d-md-block text-dark">
+              <h5 class="text-uppercase"> Swimming in the sea</h5>
+              <hr class="w-25 mx-auto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore assumenda quae enim numquam error eveniet accusamus ea fuga nostrum provident voluptates in, sapiente, quisquam impedit quis totam ipsam ullam!</p>
             </div>
           </div>
         </div>
@@ -95,13 +108,13 @@
       <!-- About Started-->
       
       <section class="main_heading my-4">
-          <div class="text-center">
+          <div class="text-center text-uppercase">
               <h1 class="display-2"> About 
                <small class="text-muted">Me</small> 
                </h1>
               <hr class="w-25 mx-auto">
           </div>
-      </section>
+      
       <div class="container">
           <div class= "row my-5">
           <div class="col-xxl-6 col-lg-6 col-md-6 col-12">
@@ -113,23 +126,79 @@
           </div>
           <div class="col-xxl-6 col-lg-6 col-md-6 col-10 d-flex 
           justify-content-center align-items-start flex-column">
-              <h2> My Learning </h2>
+              <h2> Who Am I </h2>
               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deleniti enim at totam eius saepe assumenda ipsa praesentium illum vero repellendus hic eos cum pariatur, illo animi blanditiis aliquam dolorem?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deleniti enim at totam eius saepe assumenda ipsa praesentium illum vero repellendus hic eos cum pariatur, illo animi blanditiis aliquam dolorem.
+                I Md Faisal Hossain, student, recently I have completed my third semester as an international postgraduate student in Communication and Media Engineering at Hochschule Offenburg and I did 
+                my bachelor's in Computer Science and Engineering. 
+                Punctuality, honesty, and independence are the three most important factors for me. By working in a multinational company, I have enhanced my communication skills, 
+                and it also helped me to develop organizational skills like multitasking and being an active team player. In addition to my knowledge, I always actively seek out new technologies 
+                and stay up-to-date on industry trends and advancements. I know this will allow me to stay ahead of the curve and deliver exceptional work to all of my employers. 
+                I also want to say that I think am a fast learner, 
+                can also participate in a new project in an independent/team, efficient, and solution-orientated manner.
               </p>
+              <a href="https://fhjoy.github.io/Resume/" target="_faisal">
               <button type="button" class="btn btn-outline-success"> Check More </button>
-
+              </a>
         </div>
     </div>
  </div>
+ <div class="container">
+ <div class="row">
+   <div id="navbar-example" style="position: relative;"> 
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" style="color: #198754;" href="#">My Journey</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1"> Childhood </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Education</a>
+      </li>
+      <li class="nav-item dropdown btn-outline-success">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> Job Experience </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Experience 1 </a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Experience 2</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Experience 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" 
+  style= "height: 300px; overflow-y: scroll; tabindex= 0;">
+    <h4 id="scrollspyHeading1">Childhood</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+    Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+    Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+    <h4 id="scrollspyHeading2">Education</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+    Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+    Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+    <h4 id="scrollspyHeading3">Experience 1</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+    Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+    Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+    <h4 id="scrollspyHeading4">Experience 2</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+    Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+    Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+    <h4 id="scrollspyHeading5">Experience 3</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt saepe aliquid aut unde iusto nulla, est dolore earum rerum sunt ea amet eaque illo quam quibusdam velit quisquam corrupti reiciendis?
+    Tempora ratione impedit cupiditate eos similique vitae odit accusamus quia a tenetur assumenda soluta ea quo consequatur aut officia, facere perferendis asperiores neque repudiandae! Cum cupiditate ratione eius odit neque.
+    Temporibus cumque magni dolores, expedita molestiae fugiat repellat tempora. Laborum praesentium molestias assumenda dolores illo odit animi exercitationem magni, quaerat maxime similique nemo, cupiditate labore ad, tempora sit debitis eius?</p>
+  </div>
+ </div>
+ </div>
+</div>
+</section>
 
- <!-- Profile Started-->
+ <!-- My Travel Started-->
       
- <section class="main_heading my-4 bg-light py-4">
+ <section class="main_heading my-4 bg-light pt-3 pb-5">
     <div class="text-center">
-        <h1 class="display-2"> My 
-         <small class="text-muted">Profile</small> 
+        <h1 class="display-2  text-uppercase"> My 
+         <small class="text-muted">Travels</small> 
          </h1>
         <hr class="w-25 mx-auto">
     </div>
@@ -143,9 +212,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">In Bangladesh</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <p class="card-text"><small class="text-muted">Last updated 2 years ago</small></p>
                     </div>
                   </div>
                 </div>
@@ -159,7 +228,7 @@
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">In Germany</h5>
                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -175,9 +244,9 @@
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">In India </h5>
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 years ago</small></p>
                             </div>
                           </div>
                         </div>
@@ -197,10 +266,25 @@
 
 <section class="main_heading my-4">
   <div class="text-center">
-      <h1 class="display-2"> My 
+      <h1 class="display-2 text-uppercase"> My 
        <small class="text-muted">Gallery</small> 
        </h1>
       <hr class="w-25 mx-auto">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+          Howdy !!! Take a good look.
+          <div class="mt-2 pt-2 border-top">
+            <button type="button" class="btn btn-outline-success btn-sm">Take action</button>
+            <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="toast">Close</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
   <div class="container">
     <div class="row gy-2 my-4">
@@ -212,49 +296,49 @@
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g2.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g3.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g4.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g5.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g6.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g8.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g7.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
       <div class="col-md-4 col-10 col-xxl-4 mx-auto">
         <figure>
-          <img src="Images/g1.jpg" alt="g1" class="img-fluid">
+          <img src="Images/g9.jpg" alt="g1" class="img-fluid">
         </figure>
 
       </div>
@@ -270,26 +354,32 @@
     
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 py-4 text-center text-muted">
-          <h1 class=""> Check Out my Work</h1>
+        <div class="col-12 py-4 text-center text-muted ">
+          <h1 class=""> Take A Tour at breathtaking Places </h1>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta ipsa similique, dolore eius iste quis cum repellendus veritatis, suscipit laudantium voluptatibus, rem reiciendis voluptates nam. Nemo ex ipsum doloribus?
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni delectus dolores ullam odit velit iusto earum placeat corrupti, fugit sequi, eum eius rerum. Delectus possimus et expedita, ad velit ipsa.
           </p> 
           <div class="d-grid gap-2 d-md-flex justify-content-md-center">
           <div class="list-group col-md-4 ">
+            <a class="text-decoration-none" target="_faisal" href="https://mummelsee.de/">
             <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-              The current button <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+              Mummelsee <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
                 <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
                 <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
               </svg>
             </button>
-            <button type="button" class="list-group-item list-group-item-action">A second item <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+          </a>
+          <a class="text-decoration-none" target="_faisal" href="https://www.titisee-neustadt.de/">
+            <button type="button" class="list-group-item list-group-item-action">Titisee <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
               <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
             </svg></button>
-            <button type="button" class="list-group-item list-group-item-action">A third button item</button>
-            <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
-            <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+          </a>
+            <button type="button" class="list-group-item list-group-item-action">Rakotzbrücke</button>
+            <a class="text-decoration-none" target="_faisal" href="https://en.wikipedia.org/wiki/Cox%27s_Bazar">
+            <button type="button" class="list-group-item list-group-item-action">Cox's Bazar</button>
+            </a>
+            <button type="button" class="list-group-item list-group-item-action" disabled>Offenburg</button>
           </div>
         </div>
       </div>  
@@ -301,7 +391,7 @@
    
     <section class="main_heading my-4 pt-4">
       <div class="text-center">
-          <h1 class="display-2"> Contact 
+          <h1 class="display-2 text-uppercase"> Contact 
            <small class="text-muted">Me</small> 
            </h1>
           <hr class="w-25 mx-auto">
@@ -312,35 +402,31 @@
             <div class="row py-3">
               <div class="col">
                 <label class="py-2"for="firstname"> First Name </label>
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="firstname">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="firstname" required>
               
               </div>
               <div class="col">
                 <label class="py-2" for="lastname"> Last Name </label>
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastname">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastname" required>
               
               </div>
             </div>
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="@" required>
               </div>
               <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="password" class="form-control" id="inputPassword4" placeholder=" 8-10 Characters">
               </div>
               <div class="col-12">
                 <label for="inputAddress" class="form-label">Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
               </div>
-              <div class="col-12">
-                <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-              </div>
               <div class="col-md-6">
                 <label for="inputCity" class="form-label">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" id="inputCity" placeholder="Offenburg">
               </div>
               <div class="col-md-4">
                 <label for="inputState" class="form-label">State</label>
@@ -351,18 +437,18 @@
               </div>
               <div class="col-md-2">
                 <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" class="form-control" id="inputZip" placeholder="77652">
               </div>
               <div class="col-12">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="gridCheck">
                   <label class="form-check-label" for="gridCheck">
-                    Check me out
+                    Terms and Condition
                   </label>
                 </div>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-outline-success"> Sign Up</button>
               </div>
             </form>
           </div>
@@ -385,14 +471,14 @@
           <!--Grid column-->
           <div class="col-auto">
             <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
+              <strong>Sign Up For Notifications In Email</strong>
             </p>
           </div>
           <!--Grid column-->
           <div class="col-md-5 col-12">
             <!-- Email input -->
             <div class="form-outline mb-4">
-              <input type="email" id="form5Example2" class="form-control" placeholder="Email Address" />
+              <input type="email" id="form5Example2" class="form-control" placeholder="@" />
              
             </div>
           </div>
@@ -401,7 +487,7 @@
           <!--Grid column-->
           <div class="col-auto">
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary mb-4">
+            <button type="submit" class="btn btn-outline-success mb-4">
               Subscribe
             </button>
           </div>
@@ -474,8 +560,8 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright:
-          <a class="text-white" target="_joy" href="https://fhjoy.github.io/Resume/">Faisal Hossain</a>
+          © 2021 Copyright
+          <a class="text-white text-decoration-none" target="_joy" href="https://fhjoy.github.io/Resume/">Faisal Hossain</a>
         </div>
         <!-- Copyright -->
       </footer>
@@ -492,6 +578,15 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    
+    <script>
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '#navbar-example'
+    })
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+     var toastList = toastElList.map(function (toastEl) {
+     return new bootstrap.Toast(toastEl)
+}) 
+     toastList [0].show()
+    </script>
   </body>
 </html>
